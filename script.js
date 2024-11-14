@@ -1,16 +1,12 @@
-*JavaScript (script.js)*
-
-```
-// Função para iniciar a missão
+*JavaScript (script.js)
 function iniciarMissao() {
  const missaoDiv = document.getElementById('missao');
- missaoDiv.innerHTML = `
+ missaoDiv.innerHTML = 
  <h2>Quiz de IA</h2>
  <p>Qual é o objetivo da IA?</p>
  <button id="resposta-1">Aumentar a produtividade</button>
  <button id="resposta-2">Reduzir custos</button>
  <button id="resposta-3">Melhorar a vida humana</button>
- `;
 }
 
 // Função para verificar a resposta
@@ -31,28 +27,7 @@ document.addEventListener('click', (e) => {
  if (e.target.id === 'resposta-1' || e.target.id === 'resposta-2' || e.target.id === 'resposta-3') {
  verificarResposta(e.target.textContent);
  }
-});
-```
-
-*README.md*
-
-Inteligência Artificial
-
-Este projeto explora o tema da Inteligência Artificial, apresentando uma missão interativa para os usuários.
-
- Tecnologias utilizadas
-
-* HTML
-* CSS
-* JavaScript
-
-## Funcionalidades
-
-* Iniciar missão
-* Responder perguntas
-* Verificar respostas
-
- Créditos
-
+}
+*README.md 
 * Autor: [Lorena]
 * Contato: farialorena1607@gmail.com
