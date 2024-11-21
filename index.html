@@ -1,30 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Inteligência Artificial</title>
- <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de Viagem</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header>
- <h1>Inteligência Artificial</h1>
- <p>Explorando o mundo da IA</p>
- </header>
- <main>
- <section>
- <h2>O que é IA?</h2>
- <p>Inteligência Artificial é a capacidade de uma máquina realizar tarefas que normalmente exigem inteligência humana.</p>
- </section>
- <section>
- <h2>Missão</h2>
- <button id="iniciar-missao">Iniciar</button>
- <div id="missao"></div>
- </section>
- </main>
- <footer>
- <p>Contato: farialorena1607@gmail.com         lavineaferreira108@gmail.com
- </footer>
- <script src="script.js"></script>
+    <header>
+        <h1>Dicas para Viajar</h1>
+        <nav>
+            <ul>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dicas">
+            <h2>Dicas para Planejar sua Viagem</h2>
+            <ul>
+                <li>Defina um orçamento claro.</li>
+                <li>Pesquise sobre o destino.</li>
+                <li>Faça reservas com antecedência.</li>
+                <li>Prepare uma lista do que levar.</li>
+                <li>Contrate um seguro de viagem.</li>
+            </ul>
+        </section>
+
+        <section id="destinos">
+            <h2>Destinos Imperdíveis</h2>
+            <div class="destino">
+                <h3>Paris, França</h3>
+                <p>Conheça a Torre Eiffel e o Museu do Louvre.</p>
+            </div>
+            <div class="destino">
+                <h3>Rio de Janeiro, Brasil</h3>
+                <p>Desfrute do Pão de Açúcar e das praias de Copacabana.</p>
+            </div>
+            <div class="destino">
+                <h3>Kyoto, Japão</h3>
+                <p>Visite templos históricos e explore a cultura japonesa.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="#">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dicas para Viajar. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
