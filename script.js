@@ -31,3 +31,4 @@ document.addEventListener('click', (e) => {
 *README.md 
 * Autor: [Lorena]
 * Contato: farialorena1607@gmail.com
+lavineaferreira108@gmail.com
