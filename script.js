@@ -1,4 +1,3 @@
-*JavaScript (script.js)
 function iniciarMissao() {
  const missaoDiv = document.getElementById('missao');
  missaoDiv.innerHTML = 
